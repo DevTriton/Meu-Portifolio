@@ -1,66 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 * {
-    background-color: rgb(209, 209, 209);
-}
-
-header {
-    width: auto;
-    height: 64px;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.596);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-header p{
-    display: inline-flex;
-    position: fixed;
-    margin: 20px 10px;
+    margin: 0;
+    padding: 0;
     background-color: transparent;
-    font-family: monospace;
-    font-size: 25px;
-    font-weight: bold;
+}
+
+body {
+    background-color: #D5D5D5;
+    height: auto;
+    width: auto;
 }
 
 a {
-    color: rgba(255, 255, 255, 0.938);
-    font-family: monospace;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0px 15px;
+    color: #fff;
 }
 
 .imgcima {
-    margin: 7px 10px;
-    width: 50px;
-    height: auto;
-    border-radius: 25px 25px;
-    
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin: 10px -5px;
+    width: 60px;
+    border-radius: 50px 50px;
 }
 
-.linkH{
-    display: inline;
-    background-color: transparent;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 80px;
+    width: auto;
+}
+
+.nav-list {
+   list-style: none;
+   display: flex; 
+   position: absolute;
+   right: 60px; 
+}
+
+.nav-list li{
+    margin-left: 24px; 
+}
+
+nav p{
     position: fixed;
-    right: 1px;
-    margin: 23px 10px;
-    padding: 0px 0px;
+    top: 20px;
+    left: 100px;
+    display: inline;
+    font-family: 'Inter';
+    font-size: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.gridmain {
-    position: flex;
-    align-items: center; 
-    justify-content: center;
+main {
+    width: max-content;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+main h1{ 
+    font-family: 'Aldrich';
+    text-align: center;
+    font-size: 96px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cima {
+    color: #757575;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.baixo {
+    text-align: right;
+    color: #757575;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
-.gridmain h1{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 80px;  
+.icones {
+    width: 35px;
 }
 
-.gridmain p{
+.icone {
+    width: 28px;
 }
