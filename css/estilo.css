@@ -79,6 +79,8 @@ main h1{
     font-weight: 400;
     line-height: normal;
     text-shadow: -1px 2px 10px rgba(0, 0, 0, 0.884);
+    position: relative;
+    left: 100px;
 }
 
 .cima {
@@ -90,6 +92,8 @@ main h1{
     line-height: normal;
     text-decoration: none;
     text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.623);
+    position: relative;
+    left: 100px;
 }
 
 .baixo {
@@ -101,6 +105,8 @@ main h1{
     font-weight: 400;
     line-height: normal;
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.623);
+    position: relative;
+    left: 100px;
 }
 
 .icones {
@@ -109,4 +115,11 @@ main h1{
 
 .icone {
     width: 28px;
+}
+
+.img_eu{
+    width: 200px;
+    position: absolute;
+    left: -150px;
+    border-radius: 100px 100px;
 }
