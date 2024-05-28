@@ -123,3 +123,15 @@ main h1{
     left: -150px;
     border-radius: 100px 100px;
 }
+
+.main_content{
+    position: relative;
+    top: 200px;
+}
+
+.h1_main{
+    font-size: 20px;
+    width: 900px;
+    text-align: center;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.623);
+}
